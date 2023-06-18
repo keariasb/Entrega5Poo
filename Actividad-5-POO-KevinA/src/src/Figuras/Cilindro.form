@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Figuras.Cilindro">
+  <grid id="27dc6" binding="frmCilindro" layout-manager="FlowLayout" hgap="5" vgap="15" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="500" height="300"/>
+    </constraints>
+    <properties>
+      <background color="-328966"/>
+      <minimumSize width="500" height="300"/>
+      <preferredSize width="500" height="300"/>
+    </properties>
+    <border type="empty" title="Cilindro" title-justification="2" title-position="3">
+      <font name="Segoe UI" size="32"/>
+      <title-color color="-16777216"/>
+      <size top="10" left="0" bottom="0" right="0"/>
+    </border>
+    <children>
+      <component id="b5875" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <background color="-5524801"/>
+          <font name="Segoe UI" size="20"/>
+          <foreground color="-16777216"/>
+          <horizontalAlignment value="0"/>
+          <minimumSize width="100" height="35"/>
+          <opaque value="false"/>
+          <preferredSize width="120" height="40"/>
+          <requestFocusEnabled value="false"/>
+          <text value="Radio (cm)"/>
+        </properties>
+      </component>
+      <component id="e882a" class="javax.swing.JTextField" binding="txtRadio">
+        <constraints/>
+        <properties>
+          <background color="-328966"/>
+          <font name="Segoe UI" size="20"/>
+          <foreground color="-16777216"/>
+          <horizontalAlignment value="4"/>
+          <margin top="2" left="6" bottom="2" right="6"/>
+          <maximumSize width="500" height="80"/>
+          <minimumSize width="100" height="40"/>
+          <opaque value="true"/>
+          <preferredSize width="100" height="40"/>
+        </properties>
+      </component>
+      <component id="232fb" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <background color="-5524801"/>
+          <font name="Segoe UI" size="20"/>
+          <foreground color="-16777216"/>
+          <horizontalAlignment value="0"/>
+          <minimumSize width="100" height="35"/>
+          <opaque value="false"/>
+          <preferredSize width="120" height="40"/>
+          <requestFocusEnabled value="false"/>
+          <text value="Altura (cm)"/>
+        </properties>
+      </component>
+      <component id="61176" class="javax.swing.JTextField" binding="txtAltura">
+        <constraints/>
+        <properties>
+          <background color="-328966"/>
+          <font name="Segoe UI" size="20"/>
+          <foreground color="-16777216"/>
+          <horizontalAlignment value="4"/>
+          <margin top="2" left="6" bottom="2" right="6"/>
+          <maximumSize width="500" height="80"/>
+          <minimumSize width="100" height="40"/>
+          <opaque value="true"/>
+          <preferredSize width="100" height="40"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="60866" class="javax.swing.JButton" binding="btnCalcular">
+        <constraints/>
+        <properties>
+          <background color="-13474054"/>
+          <font name="Segoe UI" size="24"/>
+          <foreground color="-16777216"/>
+          <iconTextGap value="10"/>
+          <minimumSize width="180" height="50"/>
+          <preferredSize width="210" height="50"/>
+          <text value="Calcular"/>
+        </properties>
+      </component>
+      <component id="b469f" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <background color="-5524801"/>
+          <font name="Segoe UI" size="20"/>
+          <foreground color="-16777216"/>
+          <horizontalAlignment value="0"/>
+          <minimumSize width="100" height="35"/>
+          <opaque value="false"/>
+          <preferredSize width="20" height="40"/>
+          <requestFocusEnabled value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="f9711" class="javax.swing.JButton" binding="btnLimpiar">
+        <constraints/>
+        <properties>
+          <background color="-380366"/>
+          <font name="Segoe UI" size="24"/>
+          <foreground color="-16777216"/>
+          <iconTextGap value="10"/>
+          <minimumSize width="180" height="50"/>
+          <preferredSize width="210" height="50"/>
+          <text value="Limpiar"/>
+        </properties>
+      </component>
+      <component id="f1621" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <background color="-5524801"/>
+          <font name="Segoe UI" size="20"/>
+          <foreground color="-16777216"/>
+          <horizontalAlignment value="11"/>
+          <horizontalTextPosition value="10"/>
+          <minimumSize width="100" height="35"/>
+          <opaque value="false"/>
+          <preferredSize width="280" height="40"/>
+          <requestFocusEnabled value="false"/>
+          <text value="Volumen (cm3) "/>
+        </properties>
+      </component>
+      <component id="aaaf8" class="javax.swing.JLabel" binding="lblVolumen">
+        <constraints/>
+        <properties>
+          <background color="-5524801"/>
+          <font name="Segoe UI" size="22" style="1"/>
+          <foreground color="-16777216"/>
+          <horizontalAlignment value="4"/>
+          <minimumSize width="100" height="35"/>
+          <opaque value="false"/>
+          <preferredSize width="140" height="40"/>
+          <requestFocusEnabled value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="b2057" class="javax.swing.JLabel">
+        <constraints/>
+        <properties>
+          <background color="-5524801"/>
+          <font name="Segoe UI" size="20"/>
+          <foreground color="-16777216"/>
+          <horizontalAlignment value="11"/>
+          <horizontalTextPosition value="10"/>
+          <minimumSize width="100" height="35"/>
+          <opaque value="false"/>
+          <preferredSize width="280" height="40"/>
+          <requestFocusEnabled value="false"/>
+          <text value="Superficie (cm2)"/>
+        </properties>
+      </component>
+      <component id="7ac2e" class="javax.swing.JLabel" binding="lblSuperficie">
+        <constraints/>
+        <properties>
+          <background color="-5524801"/>
+          <font name="Segoe UI" size="22" style="1"/>
+          <foreground color="-16777216"/>
+          <horizontalAlignment value="4"/>
+          <minimumSize width="100" height="35"/>
+          <opaque value="false"/>
+          <preferredSize width="140" height="40"/>
+          <requestFocusEnabled value="false"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
